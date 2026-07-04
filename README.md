@@ -15,17 +15,20 @@ The project provides a REST API and a basic web interface for predictions.
 
 📁 Project Structure
 FASTAPI_KNN/
-├── app.py
-├── ml_model.py
-├── iris.data
-├── requirements.txt
+│
+├── app.py                  # FastAPI main application
+├── ml_model.py            # Model training / loading logic
+├── iris.data              # Dataset file
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Files to ignore in Git
 │
 ├── models/
-│   └── knn_model.joblib
+│   └── knn_model.joblib   # Trained KNN model
 │
 ├── templates/
-│   └── index.html
-
+│   └── index.html         # Frontend UI (HTML form)
+│
+└── README.md              # Project documentation
 ------------------------------------------------------------------------------------------------------------------------
 ⚙️ Installation & Setup
 
